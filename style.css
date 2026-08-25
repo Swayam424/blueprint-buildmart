@@ -121,7 +121,9 @@ a {
     gap: 10px;
 }
 
-.logo-svg {
+.logo-img {
+    height: 40px;
+    width: auto;
     margin-right: 5px;
 }
 
