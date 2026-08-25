@@ -121,9 +121,8 @@ a {
     gap: 10px;
 }
 
-.logo-icon {
-    color: var(--primary-navy);
-    font-size: 1.8rem;
+.logo-svg {
+    margin-right: 5px;
 }
 
 .wordmark-blue {
@@ -268,8 +267,25 @@ a {
     transition: transform 0.5s ease;
 }
 
+.svg-illustration {
+    background-color: var(--bg-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg-illustration svg {
+    width: 60%;
+    height: 60%;
+    transition: transform 0.5s ease;
+}
+
 .product-card:hover .product-img {
     transform: scale(1.05);
+}
+
+.product-card:hover .svg-illustration svg {
+    transform: scale(1.1);
 }
 
 .product-info {
